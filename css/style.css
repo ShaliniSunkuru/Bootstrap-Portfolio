@@ -1,3 +1,4 @@
+/* Global variables*/
 :root{
     --col-pnk: #efc7c2;
     --col-pch: #ffe5d4;
@@ -6,32 +7,44 @@
     --col-plm: #4F3130;
     --col-blu: #70B5D3;
 }
+body{
+    background-color: var(--col-pch);
+}
 
-.navbar{
-    background-color: var(--col-plm) !important;
-    color: var(--col-pch) !important;
-}
-.jumbotron{
-    /* background-image: url("../images/hero-background.jpg"); */
-    background-color: var(--col-pch)!important;
-    background-size: cover;
-}
+/* Haading */
+
 .sectionHeading{
     text-align: center;
 }
 
+/* Navigation Styles */
+.navbar{
+    background-color: var(--col-plm) !important;
+    color: var(--col-pch) !important;
+}
+
+/* Jumbotron */
+.jumbotron{
+    background-image: url("../images/hero-background.jpg");
+    background-color: var(--col-pch)!important;
+    background-size: cover;
+}
+
+/* About Me Section */
 .about{
     /* margin-top: -24px; */
     background-color: var(--col-lgn);
    
 }
 .aboutContainer{
-    margin-top: -24px;
+    margin-top: -10px;
     border: 2px solid var(--col-plm);
 }
-.work{
+
+/* Work Section */
+/* .work{
     background-color: var(--col-pch);
-}
+} */
 
 .card{
     border: 4px solid var(--col-blu);
@@ -43,16 +56,24 @@
 .card img:hover{
     border: 4px solid var(--col-grn);
 }
-.skills{
-    background-color: var(--col-blu);
+
+.cardContainer{
+    margin-bottom: 15px;
 }
+
+.card{
+    margin: 0 auto;
+}
+
+/* Skills Section */
+.skills{
+    background-color: var(--col-pnk);
+}
+
+
 .contact{
     background-color: var(--col-plm);
     color: var(--col-pch);
 }
-.cardContainer{
-    margin-bottom: 15px;
-}
-.card{
-    margin: 0 auto;
-}
+
+
