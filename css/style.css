@@ -11,12 +11,14 @@
     background-color: var(--col-plm) !important;
     color: var(--col-pch) !important;
 }
-.hero{
-    background: url(../images/hero-background.jpg);
+.jumbotron{
+    /* background-image: url("../images/hero-background.jpg"); */
+    background-color: var(--col-pch)!important;
     background-size: cover;
 }
 
 .about{
+    margin-top: -24px;
     background-color: var(--col-lgn);
 }
 .work{
