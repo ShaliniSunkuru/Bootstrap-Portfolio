@@ -34,13 +34,14 @@
 }
 
 .card{
-    border: 4px solid var(--col-blu)
+    border: 4px solid var(--col-blu);
 }
 .card img{
-    border: 4px solid var(--col-pnk)
+    border: 4px solid var(--col-pnk);
+    height: 200px;
 }
 .card img:hover{
-    border: 4px solid var(--col-grn)
+    border: 4px solid var(--col-grn);
 }
 .skills{
     background-color: var(--col-blu);
