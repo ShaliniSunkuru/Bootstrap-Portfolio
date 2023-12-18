@@ -67,10 +67,28 @@ body{
 
 /* Skills Section */
 .skills{
-    background-color: var(--col-pnk);
+    
+    /* border: 2px solid var(--col-plm); */
 }
 
+.skillsContainer{
+    background-color: var(--col-pnk);
+    border: 2px solid var(--col-plm);
+    text-align: justify;
+    width: 40%;
 
+}
+.skillsList{
+    list-style-type: square;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 300px;    
+}
+
+.skillsList li{
+    padding: 5px;
+}
 .contact{
     background-color: var(--col-plm);
     color: var(--col-pch);
