@@ -1,3 +1,34 @@
+:root{
+    --col-pnk: #efc7c2;
+    --col-pch: #ffe5d4;
+    --col-lgn: #bfd3c1;
+    --col-grn: #68a691;
+    --col-plm: #4F3130;
+    --col-blu: #70B5D3;
+}
+
+.navbar{
+    background-color: var(--col-plm) !important;
+    color: var(--col-pch) !important;
+}
+.hero{
+    background: url(../images/hero-background.jpg);
+    background-size: cover;
+}
+
+.about{
+    background-color: var(--col-lgn);
+}
+.work{
+    background-color: var(--col-pch);
+}
+.skills{
+    background-color: var(--col-blu);
+}
+.contact{
+    background-color: var(--col-plm);
+    color: var(--col-pch);
+}
 .cardContainer{
     margin-bottom: 15px;
 }
