@@ -16,6 +16,9 @@
     background-color: var(--col-pch)!important;
     background-size: cover;
 }
+.sectionHeading{
+    text-align: center;
+}
 
 .about{
     /* margin-top: -24px; */
@@ -28,6 +31,16 @@
 }
 .work{
     background-color: var(--col-pch);
+}
+
+.card{
+    border: 4px solid var(--col-blu)
+}
+.card img{
+    border: 4px solid var(--col-pnk)
+}
+.card img:hover{
+    border: 4px solid var(--col-grn)
 }
 .skills{
     background-color: var(--col-blu);
