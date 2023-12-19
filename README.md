@@ -55,7 +55,7 @@ The layout is responsive and adapts to my viewport,\
 
 Here is a screenshot of the deployed website when opened using its URL.
 
-![Screenshot of Shalini Sunkuru's Porfolio website](assets/images/screenshot.png)
+![Screenshot of Shalini Sunkuru's Porfolio website](./images/screenshot.pngscreenshot.png)
 
 ## Technology Used
 
