@@ -105,6 +105,14 @@ body{
     text-align: center;
     
 }
+.btnMail:hover{
+
+    box-shadow: 5px -5px 5px var(--col-plm);
+}
+
+.contactContainer a:hover{
+    color: var(--col-grn);
+}
 
 
 
