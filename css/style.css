@@ -23,7 +23,9 @@ body{
     background-color: var(--col-plm) !important;
     color: var(--col-pch) !important;
 }
-
+.navbar a{
+    color: var(--col-pch);
+}
 /* Jumbotron */
 .jumbotron{
     background-image: url("../images/hero-background.jpg");
