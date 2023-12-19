@@ -73,14 +73,15 @@ body{
     border: 2px solid var(--col-plm);
     text-align: justify;
     width: 40%;
+    max-width: 600px;
 
 }
 .skillsList{
     list-style-type: square;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    height: 300px;    
+    /* flex-wrap: wrap; */
+    /* height: 300px;      */
 }
 
 .skillsList li{
