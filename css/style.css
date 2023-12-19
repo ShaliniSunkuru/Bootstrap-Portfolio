@@ -21,7 +21,9 @@ body{
 /* Navigation Styles */
 .navbar{
     background-color: var(--col-plm) !important;
-    color: var(--col-pch) !important;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 .navbar a{
     color: var(--col-pch);
