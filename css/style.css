@@ -66,10 +66,7 @@ body{
 }
 
 /* Skills Section */
-.skills{
-    
-    /* border: 2px solid var(--col-plm); */
-}
+
 
 .skillsContainer{
     background-color: var(--col-pnk);
@@ -99,6 +96,14 @@ body{
 }
 .contactContainer a{
     padding: 30px;
+
+}
+.emailForm{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
 }
 
 
