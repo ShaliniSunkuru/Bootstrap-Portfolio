@@ -89,9 +89,17 @@ body{
 .skillsList li{
     padding: 5px;
 }
-.contact{
+
+/* Footer - contact section */
+
+.footerHeading{
     background-color: var(--col-plm);
     color: var(--col-pch);
+    text-align: center;
 }
+.contactContainer a{
+    padding: 30px;
+}
+
 
 
