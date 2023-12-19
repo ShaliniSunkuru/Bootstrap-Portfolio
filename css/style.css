@@ -33,6 +33,10 @@ body{
     background-image: url("../images/hero-background.jpg");
     background-color: var(--col-pch)!important;
     background-size: cover;
+    color: var(--col-plm);
+}
+.profileImg{
+    max-width: 80%;
 }
 
 /* About Me Section */
