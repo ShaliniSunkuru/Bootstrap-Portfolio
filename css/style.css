@@ -32,20 +32,17 @@ body{
 }
 
 /* About Me Section */
-.about{
-    /* margin-top: -24px; */
-    background-color: var(--col-lgn);
-   
-}
+
 .aboutContainer{
+    text-align: center;
     margin-top: -10px;
     border: 2px solid var(--col-plm);
+    border-left: none;
+    border-right: none;
+    background-color: var(--col-lgn);
 }
 
 /* Work Section */
-/* .work{
-    background-color: var(--col-pch);
-} */
 
 .card{
     border: 4px solid var(--col-blu);
